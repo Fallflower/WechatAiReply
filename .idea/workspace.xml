@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a8c25d4-98e9-4107-a2e4-432f2e033075" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api/local/lm_studio.py" afterDir="false" />
-    </list>
+    <list default="true" id="1a8c25d4-98e9-4107-a2e4-432f2e033075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +102,7 @@
       <workItem from="1727512935096" duration="60000" />
       <workItem from="1727513002396" duration="1790000" />
       <workItem from="1727532378277" duration="4028000" />
-      <workItem from="1728746566787" duration="32544000" />
+      <workItem from="1728746566787" duration="32848000" />
     </task>
     <servers />
   </component>
