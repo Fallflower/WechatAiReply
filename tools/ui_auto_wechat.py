@@ -1,20 +1,4 @@
-import time
 import uiautomation as auto
-import subprocess
-import numpy as np
-import pyperclip
-import os
-import pyautogui
-
-
-from ctypes import *
-from PIL import ImageGrab
-from clipboard import setClipboardFiles
-from PyQt5.QtWidgets import QApplication
-from PyQt5.QtCore import QMimeData, QUrl
-from typing import List
-
-from wechat_locale import WeChatLocale
 
 
 # 鼠标移动到控件上

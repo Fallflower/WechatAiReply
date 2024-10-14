@@ -1,5 +1,3 @@
-
-
 """
 This class defines the mapping of the WeChat UI elements to the English and Chinese names.
 这个类定义了微信程序 UI 元素到英文和中文名称的映射。
@@ -38,11 +36,13 @@ class WeChatLocale:
             setattr(self, key, value[locale])
     
     @staticmethod
-    def getSupportedLocales():
-        return list(WeChatLocale.MAPPING.values())[0].keys()
-
-if __name__ == "__main__":
-    print(WeChatLocale.getSupportedLocales())
-
-    lc = WeChatLocale("zh-CN")
-
+    def help():
+        print("WeChat locale help:")
+        print(
+"""
+    @param locale: the locale of the WeChat UI, either "en-US", "zh-CN", or "zh-TW"
+"""
+        )
+        for key, value in WeChatLocale.MAPPING.items():
+            print(f"\t{key}: {value}")
+        # return list(WeChatLocale.MAPPING.values())[0].keys()
